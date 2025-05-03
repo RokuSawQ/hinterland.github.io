@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: white;
+}
+
+.header {
+    
+    background-color: #00a8f3;
+    color: white;
+    padding: 20px;
+    text-align: left;
+      
+    top: 0;
+ 
+}
+
+.logo{
+    text-align: left;
+    width: 500px;
+    height: 100px;
+        }
+
+
+.titl{
+    font-family: 'KN', Arial, sans-serif; 
+    text-align: center;
+}
+
+.txt{
+    font-family: 'HL', Arial, sans-serif; 
+    text-align: center;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    width: 200px;
+    height: 500px;
+    
+    background-color: #8cfffb;
+    padding: 15px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'KN'; 
+    src: url('fnts/Kingthings Petrock.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: bold; 
+}
+
+@font-face {
+    font-family: 'HL'; 
+    src: url('fnts/hlr.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: bold; 
+}
+
+.sidebar a {
+    display: block;
+    padding: 10px;
+    background-color: #00a8f3;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 10px;
+    border-radius: 5px;
+     font-family: 'KN', Arial, sans-serif; 
+    
+}
+
+.sidebar a:hover {
+    background-color: lightblue;
+}
+
+.content {
+    flex-grow: 1;
+    padding: 20px;
+}
